@@ -9,7 +9,7 @@ interface ColumnProps {
 
 const idToColumnText: Record<TypedColumn, string> = {
   done: "Done",
-  inprogress: "InProgress",
+  inprogress: "In Progress",
   todo: "To Do",
 };
 
