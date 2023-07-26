@@ -17,7 +17,7 @@ const Column = ({ id, todos, index }: ColumnProps) => {
   return (
     <Draggable draggableId={id} index={index}>
       {(provided) => (
-        <div className="bg-gray-200 rounded-md p-5" {...provided.draggableProps} {...provided.dragHandleProps} ref={provided.innerRef}>
+        <div className="bg-gray-300 rounded-md p-5" {...provided.draggableProps} {...provided.dragHandleProps} ref={provided.innerRef}>
           <Droppable droppableId={index.toString()} type="card">
             {(provided, e) => (
               <div
